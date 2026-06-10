@@ -1,8 +1,5 @@
 import streamlit as st
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.chat_models import ChatOpenAI
-from langchain.chains import RetrievalQA
+from langchain_openai import ChatOpenAI
 
 # 初始化
 st.set_page_config(page_title="Offer捕手", layout="wide")
