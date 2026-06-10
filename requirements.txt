@@ -1,5 +1,2 @@
 streamlit
-openai
-langchain
-langchain-openai
-chromadb
+requests
